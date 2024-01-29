@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "Studio AV"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -77,11 +77,11 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
+    - name: instagram
       url: "https://x.com/"
-    - name: stackoverflow
+    - name: facebook
       url: "https://stackoverflow.com"
-    - name: github
+    - name: email
       url: "https://github.com/"
 
   analytics:
