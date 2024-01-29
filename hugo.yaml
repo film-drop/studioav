@@ -16,7 +16,6 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Studio AV
   description: "Studio AV is a comprehensive AV company focousing on supporting live shows, events and weddings"
   keywords: [AV, Studio, Wedding, Weddings, Hindu, Iyer, Microphone,]
   author: Me
@@ -41,6 +40,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  hideFooter: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
