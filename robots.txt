@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://studioav.com.au/sitemap.xml
