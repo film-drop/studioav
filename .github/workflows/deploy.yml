@@ -25,6 +25,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: .
           publish_branch: gh-pages  # Change this to 'master' if you're using the master branch
           cname: studioav.com.au  # Optional: Add your custom domain here if applicable
