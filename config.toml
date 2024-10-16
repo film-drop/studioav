@@ -1,6 +1,6 @@
-baseURL = "https://www.example.com/"
+baseURL = "https://studioav.com.au/"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "Studio AV"
 theme = "hugo-hero-theme"
 
 [module]
