@@ -1,7 +1,7 @@
 baseURL: https://studioav.com.au/
 languageCode: en-us
 title: Studio AV
-theme: "PaperMod"
+theme: "hugo-hero-theme"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -18,7 +18,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Studio AV is a comprehensive AV company focousing on supporting live shows, events and weddings"
   keywords: [AV, Studio, Wedding, Weddings, Hindu, Iyer, Microphone,]
-  author: Me
+  author: Stuio AV
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -40,7 +40,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-  hideFooter: true
+  hideFooter: true #hiding the copyright
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -58,8 +58,8 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
+    enabled: true # needs to be explicitly set
+    title: "Studio AV"
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
@@ -107,7 +107,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 1000 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
