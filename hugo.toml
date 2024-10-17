@@ -73,8 +73,8 @@ expiryDate = ["expiryDate"]
   themeColor = "$midnightblue"
 
   homeSubtitle = "Contact us info@studioav.com.au"
-  #footerCopyright = "CHANGE ME FOOTER COPYRIGHT"
-  # footerHideThemeName = false
+  footerCopyright = "ABN 68 627 722 105"
+  footerHideThemeName = false
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
